@@ -31,9 +31,8 @@ int main(int argc, char *argv[])
     default: goto fail;
     }
   printf("%.9g%c%.9g =  %.6g\n\n",v1,operator, v2, answer);
-  goto exit;
+  exit;
  fail:
   printf("Fail.\n");
- exit:
   return 0;
 }
